@@ -1,0 +1,180 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Navigation bar section */
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+*{
+	margin: 0; 
+	padding: 0; 
+	font-family: 'Roboto', arial, sans-serif; 
+	-webkit-font-smoothing: antialiased;
+} 
+
+
+.navbar {
+	margin-bottom: 0;
+	border: none;
+	background: transparent;
+
+}
+
+.navbar.show {
+	background: #fff; 
+	box-shadow: 0 0 4px rgba(0,0,0,0.5);
+	
+	
+}
+
+.navbar .navbar-brand {
+	left: 230px;
+	color: white;
+	font-size: 26px;
+	background:#ec6952;
+	position: relative;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	font-weight: 500;
+	
+}
+
+.navbar .navbar-brand.show {
+	left: 230px;
+	color: #ec6952 !important;
+	font-size: 26px;
+	position: relative;
+	font-weight: 500;
+	background: transparent;
+	
+	
+}
+
+
+
+
+.navbar .navbar-nav {
+	padding-left: 680px;
+	font-weight: bold;
+    text-transform: uppercase;
+    font-size: 13px;
+	
+}
+
+.navbar .navbar-nav li {
+	padding-left: 20px;
+}
+
+.navbar .navbar-nav .home a {
+	color: #ec6952;
+}
+
+.navbar .navbar-nav .home a:hover {
+	color: #ec6952;
+}
+
+.navbar .navbar-nav .about a:hover {
+	color: #ec6952;
+}
+
+.navbar .navbar-nav .work a:hover {
+	color: #ec6952;
+}
+
+.navbar .navbar-nav .lives a:hover {
+	color: #ec6952;
+}
+
+
+
+
+
+
+.footerSection {
+	background: #253340;
+	color: white;
+	height: 180px;
+	
+}
+
+.footerSection .menu1, .menu2, .menu3 {
+	padding-left: 4px;
+    font-weight: normal;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    -webkit-opacity: .9;
+    -moz-opacity: .9;
+    opacity: .9;
+}
+
+.footerSection .row .menu1 .list-unstyled a, .menu2 .list-unstyled a, .menu3 .list-unstyled a {
+	color: #7d9ab4;
+	
+	
+}
+
+.footerSection .row .menu1 .list-unstyled li, .menu2 .list-unstyled li, .menu3 .list-unstyled li {
+	padding-bottom: 5px;
+}
+
+
+.footerSection .row .menu1 .list-unstyled a i, .menu2 .list-unstyled a i, .menu3 .list-unstyled a i {
+	margin-right: 10px;
+}
+
+
+.footerSection .row .col-sm-5 .list-inline .list-inline-item .icon {
+	font-size: 30px;
+	color: #b3b2b2; 
+	padding-left: 20px;	
+}
+
+.footerSection .row .col-sm-5 .list-inline {
+	margin-top: 20px;
+}
+
+
+.footerSection .row .col-sm-5 .form-container .form-group input {
+	opacity: .9;
+    font-size: 14px;
+    position: relative;
+    top: 2px;
+	width: 250px;
+	right: 15px;
+	
+}
+
+.footerSection2 {
+	background: #02080e;
+	color: white;
+	height: 180px;
+}
+
+.footerSection2 .col-sm-3 .title {
+	font-size: 14px; 
+	color: rgb(125, 154, 180);
+	
+}
+
+.footerSection2 .col-sm-5 {
+	padding-left: 40px;
+}
+.footerSection2 .col-sm-6 .col-sm-5 .footer2Content {
+	color: #7d9ab4;
+}
+
+.footerSection2 .col-sm-6 .col-sm-5 .footer2Content .fas {
+	padding-right: 20px;
+	padding-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+	
+    
+    
