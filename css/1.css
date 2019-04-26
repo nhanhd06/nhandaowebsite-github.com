@@ -90,15 +90,15 @@
 
 .footerSection {
 	background: #253340;
-	color: white;
-	height: 180px;
+	
+	height: 56px;
 	
 }
 
-.footerSection .menu1, .menu2, .menu3 {
+.footerSection .menu1 {
 	padding-left: 4px;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 14px;
     margin-top: 20px;
     margin-bottom: 20px;
     -webkit-opacity: .9;
@@ -106,47 +106,21 @@
     opacity: .9;
 }
 
-.footerSection .row .menu1 .list-unstyled a, .menu2 .list-unstyled a, .menu3 .list-unstyled a {
-	color: #7d9ab4;
-	
-	
+.footerSection .menu1 a:hover {
+	color: #ec6952;
 }
 
-.footerSection .row .menu1 .list-unstyled li, .menu2 .list-unstyled li, .menu3 .list-unstyled li {
-	padding-bottom: 5px;
-}
-
-
-.footerSection .row .menu1 .list-unstyled a i, .menu2 .list-unstyled a i, .menu3 .list-unstyled a i {
-	margin-right: 10px;
-}
-
-
-.footerSection .row .col-sm-5 .list-inline .list-inline-item .icon {
-	font-size: 30px;
-	color: #b3b2b2; 
-	padding-left: 20px;	
-}
-
-.footerSection .row .col-sm-5 .list-inline {
-	margin-top: 20px;
-}
-
-
-.footerSection .row .col-sm-5 .form-container .form-group input {
-	opacity: .9;
-    font-size: 14px;
-    position: relative;
-    top: 2px;
-	width: 250px;
-	right: 15px;
-	
+.footerSection .col-sm-2 .row  .list-inline .list-inline-item .icon .fab {
+	font-size: 38px;
+    padding-left: 7px;
+    padding-top: 10px
 }
 
 .footerSection2 {
 	background: #02080e;
 	color: white;
 	height: 180px;
+	padding-top: 20px;
 }
 
 .footerSection2 .col-sm-3 .title {
